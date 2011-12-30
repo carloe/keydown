@@ -13,6 +13,7 @@
 		2BA95F7614AE64CF002B674D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F7414AE64CF002B674D /* Credits.rtf */; };
 		2BA95F7914AE64CF002B674D /* keydownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */; };
 		2BA95F7C14AE64CF002B674D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F7A14AE64CF002B674D /* MainMenu.xib */; };
+		2BA95F8414AE67A9002B674D /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F8314AE67A9002B674D /* menu_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		2BA95F6814AE64CF002B674D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2BA95F6914AE64CF002B674D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2BA95F6A14AE64CF002B674D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2BA95F6D14AE64CF002B674D /* keydown-Info.plist */ = {isa = PBXFileReference; path = "keydown-Info.plist"; sourceTree = "<group>"; };
+		2BA95F6D14AE64CF002B674D /* keydown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "keydown-Info.plist"; sourceTree = "<group>"; };
 		2BA95F6F14AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2BA95F7114AE64CF002B674D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2BA95F7314AE64CF002B674D /* keydown-Prefix.pch */ = {isa = PBXFileReference; path = "keydown-Prefix.pch"; sourceTree = "<group>"; };
+		2BA95F7314AE64CF002B674D /* keydown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "keydown-Prefix.pch"; sourceTree = "<group>"; };
 		2BA95F7514AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2BA95F7714AE64CF002B674D /* keydownAppDelegate.h */ = {isa = PBXFileReference; path = keydownAppDelegate.h; sourceTree = "<group>"; };
+		2BA95F7714AE64CF002B674D /* keydownAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keydownAppDelegate.h; sourceTree = "<group>"; };
 		2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keydownAppDelegate.m; sourceTree = "<group>"; };
 		2BA95F7B14AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2BA95F8314AE67A9002B674D /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2BA95F7714AE64CF002B674D /* keydownAppDelegate.h */,
 				2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */,
 				2BA95F7A14AE64CF002B674D /* MainMenu.xib */,
+				2BA95F8214AE67A9002B674D /* resources */,
 				2BA95F6C14AE64CF002B674D /* Supporting Files */,
 			);
 			path = keydown;
@@ -100,6 +103,14 @@
 				2BA95F7414AE64CF002B674D /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA95F8214AE67A9002B674D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F8314AE67A9002B674D /* menu_icon.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				2BA95F7014AE64CF002B674D /* InfoPlist.strings in Resources */,
 				2BA95F7614AE64CF002B674D /* Credits.rtf in Resources */,
 				2BA95F7C14AE64CF002B674D /* MainMenu.xib in Resources */,
+				2BA95F8414AE67A9002B674D /* menu_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

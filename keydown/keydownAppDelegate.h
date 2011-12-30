@@ -10,6 +10,10 @@
 
 @interface keydownAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;
+    IBOutlet NSMenu *statusMenu;
+    NSStatusItem * statusItem;
+    IBOutlet NSMenuItem *swimMenuItem;
+    IBOutlet NSMenuItem *runMenuItem;
 }
 
 @property (assign) IBOutlet NSWindow *window;
