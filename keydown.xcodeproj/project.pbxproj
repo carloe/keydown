@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BA95F6614AE64CF002B674D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA95F6514AE64CF002B674D /* Cocoa.framework */; };
+		2BA95F7014AE64CF002B674D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F6E14AE64CF002B674D /* InfoPlist.strings */; };
+		2BA95F7214AE64CF002B674D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA95F7114AE64CF002B674D /* main.m */; };
+		2BA95F7614AE64CF002B674D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F7414AE64CF002B674D /* Credits.rtf */; };
+		2BA95F7914AE64CF002B674D /* keydownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */; };
+		2BA95F7C14AE64CF002B674D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA95F7A14AE64CF002B674D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BA95F6114AE64CF002B674D /* keydown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keydown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA95F6514AE64CF002B674D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2BA95F6814AE64CF002B674D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2BA95F6914AE64CF002B674D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BA95F6A14AE64CF002B674D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA95F6D14AE64CF002B674D /* keydown-Info.plist */ = {isa = PBXFileReference; path = "keydown-Info.plist"; sourceTree = "<group>"; };
+		2BA95F6F14AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA95F7114AE64CF002B674D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA95F7314AE64CF002B674D /* keydown-Prefix.pch */ = {isa = PBXFileReference; path = "keydown-Prefix.pch"; sourceTree = "<group>"; };
+		2BA95F7514AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2BA95F7714AE64CF002B674D /* keydownAppDelegate.h */ = {isa = PBXFileReference; path = keydownAppDelegate.h; sourceTree = "<group>"; };
+		2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keydownAppDelegate.m; sourceTree = "<group>"; };
+		2BA95F7B14AE64CF002B674D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA95F5E14AE64CF002B674D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA95F6614AE64CF002B674D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA95F5614AE64CE002B674D = {
+			isa = PBXGroup;
+			children = (
+				2BA95F6B14AE64CF002B674D /* keydown */,
+				2BA95F6414AE64CF002B674D /* Frameworks */,
+				2BA95F6214AE64CF002B674D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA95F6214AE64CF002B674D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F6114AE64CF002B674D /* keydown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA95F6414AE64CF002B674D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F6514AE64CF002B674D /* Cocoa.framework */,
+				2BA95F6714AE64CF002B674D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA95F6714AE64CF002B674D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F6814AE64CF002B674D /* AppKit.framework */,
+				2BA95F6914AE64CF002B674D /* CoreData.framework */,
+				2BA95F6A14AE64CF002B674D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2BA95F6B14AE64CF002B674D /* keydown */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F7714AE64CF002B674D /* keydownAppDelegate.h */,
+				2BA95F7814AE64CF002B674D /* keydownAppDelegate.m */,
+				2BA95F7A14AE64CF002B674D /* MainMenu.xib */,
+				2BA95F6C14AE64CF002B674D /* Supporting Files */,
+			);
+			path = keydown;
+			sourceTree = "<group>";
+		};
+		2BA95F6C14AE64CF002B674D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA95F6D14AE64CF002B674D /* keydown-Info.plist */,
+				2BA95F6E14AE64CF002B674D /* InfoPlist.strings */,
+				2BA95F7114AE64CF002B674D /* main.m */,
+				2BA95F7314AE64CF002B674D /* keydown-Prefix.pch */,
+				2BA95F7414AE64CF002B674D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA95F6014AE64CF002B674D /* keydown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA95F7F14AE64CF002B674D /* Build configuration list for PBXNativeTarget "keydown" */;
+			buildPhases = (
+				2BA95F5D14AE64CF002B674D /* Sources */,
+				2BA95F5E14AE64CF002B674D /* Frameworks */,
+				2BA95F5F14AE64CF002B674D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keydown;
+			productName = keydown;
+			productReference = 2BA95F6114AE64CF002B674D /* keydown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA95F5814AE64CE002B674D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Carlo Eugster";
+			};
+			buildConfigurationList = 2BA95F5B14AE64CE002B674D /* Build configuration list for PBXProject "keydown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA95F5614AE64CE002B674D;
+			productRefGroup = 2BA95F6214AE64CF002B674D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA95F6014AE64CF002B674D /* keydown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA95F5F14AE64CF002B674D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA95F7014AE64CF002B674D /* InfoPlist.strings in Resources */,
+				2BA95F7614AE64CF002B674D /* Credits.rtf in Resources */,
+				2BA95F7C14AE64CF002B674D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA95F5D14AE64CF002B674D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA95F7214AE64CF002B674D /* main.m in Sources */,
+				2BA95F7914AE64CF002B674D /* keydownAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA95F6E14AE64CF002B674D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA95F6F14AE64CF002B674D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BA95F7414AE64CF002B674D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA95F7514AE64CF002B674D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2BA95F7A14AE64CF002B674D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA95F7B14AE64CF002B674D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA95F7D14AE64CF002B674D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2BA95F7E14AE64CF002B674D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BA95F8014AE64CF002B674D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keydown/keydown-Prefix.pch";
+				INFOPLIST_FILE = "keydown/keydown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA95F8114AE64CF002B674D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "keydown/keydown-Prefix.pch";
+				INFOPLIST_FILE = "keydown/keydown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA95F5B14AE64CE002B674D /* Build configuration list for PBXProject "keydown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA95F7D14AE64CF002B674D /* Debug */,
+				2BA95F7E14AE64CF002B674D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA95F7F14AE64CF002B674D /* Build configuration list for PBXNativeTarget "keydown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA95F8014AE64CF002B674D /* Debug */,
+				2BA95F8114AE64CF002B674D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA95F5814AE64CE002B674D /* Project object */;
+}
