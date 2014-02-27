@@ -2,8 +2,7 @@
 //  keydownAppDelegate.h
 //  keydown
 //
-//  Created by Carlo Eugster on 12/30/11.
-//  Copyright 2011 Carlo Eugster. All rights reserved.
+//  Created by Carlo Eugster <carlo.eugster@gmail.com> on 12/30/11.
 //
 
 #import <Cocoa/Cocoa.h>
